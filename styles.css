@@ -58,7 +58,7 @@ body {
 .header {
     width: 1920px;
     height: 219px;
-    background-image: url("/iai-web-store/layout/header_bg/2-layers-left.png"), url("/layout/header_bg/2-layers-right.png");
+    background-image: url("./layout/header_bg/2-layers-left.png"), url("./layout/header_bg/2-layers-right.png");
     background-repeat: no-repeat, no-repeat;
     background-position: left, right;
     background-color: #eaeaea;
@@ -104,7 +104,7 @@ body {
 }
 
 .search-button {
-    background-image: url("/layout/header_row_2/.png");
+    background-image: url("./layout/header_row_2/search.png");
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
@@ -128,6 +128,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    white-space: nowrap;
 }
 
 .header-contract-info div {
@@ -146,7 +147,7 @@ body {
     height: 156px;
     width: 185px;
     margin-left: 800px;
-    background-image: url("/iai-web-store/layout/koszyk/4-layers.png");
+    background-image: url("./layout/koszyk/4-layers.png");
     background-repeat: no-repeat;
     z-index: 1;
 }
@@ -287,7 +288,7 @@ body {
 .body .first-section .second-column .promocja {
     width: 78px;
     height: 21px;
-    background-image: url('/iai-web-store/layout/body/second-section/2-layers.png');
+    background-image: url('./layout/body/second-section/2-layers.png');
     background-repeat: no-repeat;
     float: right;
 }
@@ -510,7 +511,7 @@ input[type=checkbox] {
 .fifth-row-third-column {
     width: 184px;
     height: 59px;
-    background-image: url('layout/body/second-section/fifth-row/Warstwa_708.png');
+    background-image: url('./layout/body/second-section/fifth-row/Warstwa_708.png');
     color: white;
     display: flex;
     align-content: center;
@@ -585,7 +586,7 @@ input[type=checkbox] {
 .eigth-row {
     width: 485px;
     height: 142px;
-    background-image: url('layout/body/second-section/eight-row/2-layers.png');
+    background-image: url('./layout/body/second-section/eight-row/2-layers.png');
     background-repeat: no-repeat;
     padding: 30px;
 }
@@ -862,7 +863,7 @@ input[type=checkbox] {
     height: 42px;
     color: white;
     font-weight: bold;
-    background-image: url('layout/body/second-section/fifth-row/Warstwa_708.png');
+    background-image: url('./layout/body/second-section/fifth-row/Warstwa_708.png');
     display: flex;
     align-content: center;
     justify-content: center;
@@ -878,7 +879,7 @@ input[type=checkbox] {
 .third-section-col-2-first-part {
     width: 285px;
     height: 140px;
-    background-image: url('layout/body/third-section/warstwa.png');
+    background-image: url('./layout/body/third-section/warstwa.png');
     background-color: black;
     margin: 0 81px;
     display: flex;
@@ -889,7 +890,7 @@ input[type=checkbox] {
 .third-section-col-2-second-part {
     width: 487px;
     height: 560px;
-    background-image: url('layout/body/third-section/3-layers.png');
+    background-image: url('./layout/body/third-section/3-layers.png');
 }
 
 .btn-sprawdz {
@@ -968,7 +969,7 @@ input[type=checkbox] {
 .footer {
     width: 1920px;
     height: 565px;
-    background-image: url('layout/footer/footer.png');
+    background-image: url('./layout/footer/footer.png');
     background-repeat: no-repeat;
     background-size: 2010px 600px;
     background-position: -55px 60px;
@@ -1107,6 +1108,31 @@ input[type=checkbox] {
     color: red;
 }
 
+.informacje-o-wymianie img {
+    width: 14px;
+    height: 15px;
+}
+
+.zwroty img {
+    width: 16px;
+    height: 12px;
+}
+
+.reklamacje img {
+    width: 14px;
+    height: 16px;
+}
+
+.sledz-przesylke img {
+    width: 15px;
+    height: 15px;
+}
+
+.sprawdz-status-zamowenia img {
+    width: 16px;
+    height: 11px;
+}
+
 @media screen and (max-width: 630px) {
     .header-main-menu {
         width: 600px;
@@ -1182,7 +1208,8 @@ input[type=checkbox] {
 
 @media screen and (min-width: 630px) and (max-width: 1200px) {
     .header-main-menu {
-        width: 860px;
+        width: 100%;
+        ;
         height: 250px;
         background-color: white;
     }
@@ -1192,11 +1219,12 @@ input[type=checkbox] {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin: 20px 0px 20px 280px;
+        justify-content: center;
+        margin: 20px 0px 20px 1px;
     }
 
     .header-top-line {
-        width: 860px
+        width: 100%;
     }
 
     .first-section,
@@ -1227,7 +1255,7 @@ input[type=checkbox] {
     }
 
     .footer {
-        width: 860px
+        width: 100%;
     }
 
     .third-section-col-1-row-1-main-text-1 {
@@ -1245,49 +1273,41 @@ input[type=checkbox] {
 
     .header {
         height: 380px;
-        width: 860px
+        width: 100%;
     }
 
     .body {
-        width: 860px
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
     .header {
-        width: 1366px;
+        width: 100%;
     }
 
     .body {
-        width: 1366px;
+        width: 100%;
+    }
+
+    .header-content-container {
+        margin: auto;
     }
 
     .header-top-line {
-        width: 1366px;
+        width: 100%;
+    }
+
+    .third-section-col-2 {
+        margin-left: 140px;
+    }
+
+    .porady-section-2 {
+        margin-left: 150px;
     }
 
     .footer {
-        width: 1366px;
-        background-size: 2010px 600px;
-        background-position: -57px 60px;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    .header {
-        width: 1600px;
-    }
-
-    .body {
-        width: 1600px;
-    }
-
-    .header-top-line {
-        width: 1600px;
-    }
-
-    .footer {
-        width: 1600px;
+        width: 100%;
         background-size: 2010px 600px;
         background-position: -57px 60px;
     }
