@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Down arrow styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google font Monserrat -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Web Store</title>
+
+    <!-- JavaScript logic -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="rootDiv">
+        <div class="header-top-line">
+            <div class="header-container">
+                <div class="header-contract-info">
+                    <div class="phone">
+                        <img src="/iai-web-store/layout/top_links/telephone_(1).png" alt="phone-img" /><span> Tel: +48
+                            517
+                            989
+                            511</span>
+                    </div>
+                    <div class="e-mail"><img src="/iai-web-store/layout/top_links/mail-black-envelope-symbol_(1).png"
+                            alt="email-img" />
+                        <span> E-mail: sklep@assassins-arms.com</span></div>
+                    <div class="facebook"><img src="/iai-web-store/layout/top_links/facebook-logo_(9).png"
+                            alt="facebook-img" />
+                        <span> assasinarms</span></div>
+                </div>
+                <div class="header-koszyk">
+                    <div class="header-koszyk-text-container">
+                        <p>TWÓJ KOSZYK</p>
+                        <b>3 454,00 zł</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-content-container">
+                <img src="/iai-web-store/layout/header_row_2/logo.png" alt="website-logo">
+                <div class="search-input">
+                    <input type="search" id="site-search" placeholder="Wpisz czego szukasz...">
+                    <div class="search-button"></div>
+                </div>
+                <div class="language">
+                    <b>PL</b>
+                    <img src="/iai-web-store/layout/header_row_2/Warstwa_675.png" alt="pl-flag-logo">
+                    <div class="dropdown">
+                        <button onclick="myFunction('pl-dropdown')" class="dropbtn"><i
+                                class="fa fa-angle-down"></i></button>
+                        <div id="pl-dropdown" class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <b class="twoje-konto">TWOJE KONTO</b>
+                </div>
+            </div>
+            <div class="header-main-menu">
+                <div class="menu-section">
+                    <div class="dropdown">
+                        <button onclick="myFunction('zestawy-dropdown')" class="dropbtn">GOTOWE ZESTAWY DO GRY <i
+                                class="fa fa-angle-down"></i></button>
+                        <div id="zestawy-dropdown" class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction('sprzet-dropdown')" class="dropbtn">SPRZĘT <i
+                                class="fa fa-angle-down"></i></button>
+                        <div id="sprzet-dropdown" class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction('odiez-dropdown')" class="dropbtn">ODIEŻ <i
+                                class="fa fa-angle-down"></i></button>
+                        <div id="odiez-dropdown" class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="dropbtn">KULKI</button>
+                    </div>
+                    <div>
+                        <button class="dropbtn">WYPRZEDAŻE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-path-product">
+                <span>Strona główna >> Sprzęt >> </span>
+                <b>Marker Tippman FT-50 lite</b>
+            </div>
+        </div>
+        <div class="body">
+            <div class="first-section">
+                <div class="first-column">
+                    <div class="arrow-div"><img class="arrow" src="layout/body/first-section/down-arrow_(1)_kopia_9.png"
+                            alt="arrow-up"></div>
+                    <div class="selected-product-img"><img class="product-img"
+                            src="layout/body/first-section/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_8.png"
+                            alt="selected-product"></div>
+                    <div class="div-product-img"><img class="product-img"
+                            src="layout/body/first-section/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_8.png"
+                            alt="product"></div>
+                    <div class="div-product-img"><img class="product-img"
+                            src="layout/body/first-section/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_8.png"
+                            alt="product"></div>
+                    <div class="div-product-img"><img class="product-img"
+                            src="layout/body/first-section/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_8.png"
+                            alt="product"></div>
+                    <div class="div-product-img"><img class="product-img"
+                            src="layout/body/first-section/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_8.png"
+                            alt="product"></div>
+                    <div class="div-product-img"><img class="product-img"
+                            src="layout/body/first-section/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_8.png"
+                            alt="product"></div>
+                    <div class="arrow-div"><img class="arrow"
+                            src="/iai-web-store/layout/body/first-section/down-arrow_(1)_kopia_10.png" alt="arrow-down">
+                    </div>
+                </div>
+                <div class="second-column">
+                    <div class="promocja"><b>PROMOCJA</b></div>
+                    <img src="layout/body/second-section/Tippmann_FT-_50_LITE_50_cal_Rental_black.png" alt="tipman-img">
+                </div>
+                <div class="third-column">
+                    <div class="first-row">
+                        <h3>MARKER TIPPMANN FT- 50 LITE 50 CAL RENTAL (BLACK) </h3>
+                        <span>PRODUCENT: </span><span class="producent">Dye</span>
+                        <span>KOD PRODUKTU: 6578758769878</span>
+                    </div>
+                    <div class="second-row">
+                        <p>KOLOR: </p>
+                        <div class="color-product-row">
+                            <div class="selected-product-img"><img
+                                    src="layout/body/second-section/second-row/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_9.png"
+                                    alt="product-color-red"></div>
+                            <div class="div-product-img"><img
+                                    src="layout/body/second-section/second-row/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_10.png"
+                                    alt="product-color-green"></div>
+                            <div class="div-product-img"><img
+                                    src="layout/body/second-section/second-row/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_11.png"
+                                    alt="product-color-purple"></div>
+                            <div class="div-product-img"><img
+                                    src="layout/body/second-section/second-row/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_9.png"
+                                    alt="product-color-red"></div>
+                            <div class="div-product-img"><img
+                                    src="layout/body/second-section/second-row/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_10.png"
+                                    alt="product-color-green"></div>
+                            <div class="div-product-img"><img
+                                    src="layout/body/second-section/second-row/Tippmann_FT-_50_LITE_50_cal_Rental_black_kopia_11.png"
+                                    alt="product-color-purple"></div>
+                        </div>
+                    </div>
+                    <div class="third-row">
+                        <div class="third-row-select-1">
+                            <p>DŁUGOŚĆ LUFY: </p>
+                            <select class="measures" name="tippmanns">
+                                <option value="120">120 cm</option>
+                                <option value="140">140 cm</option>
+                                <option value="160">160 cm</option>
+                            </select>
+                        </div>
+                        <div class="third-row-select-2">
+                            <p>KALIBER: </p>
+                            <select class="measures" name="tippmanns">
+                                <option value="55">55NU</option>
+                                <option value="70">70NU</option>
+                                <option value="95">95NU</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="fourth-row">
+                        <label class="main">
+                            <div class="fourth-row-text-1">
+                                <span>Dostępny na magazynie (14 szt.)</span>
+                                <b>Wysyłka dzisiaj</b>
+                            </div>
+                            <input type="checkbox" checked="checked">
+                            <span class="geekmark"></span>
+                        </label>
+                        <div class="fourth-row-section-2"><b class="fourth-row-text-2">SPRAWDŹ CZASY I KOSZTY
+                                WYSYŁKI</b></div>
+                    </div>
+                    <div class="fifth-row">
+                        <div class="fifth-row-first-column">
+                            <span>1499,00 zł</span>
+                            <b>1278,00 zł</b>
+                        </div>
+                        <div class="number">
+                            <div class="number-container">
+                                <span class="minus">-</span>
+                                <input type="text" value="1" />
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                        <div class="fifth-row-third-column">
+                            <p>DODAJ DO KOSZYKA</p>
+                        </div>
+                    </div>
+                    <div class="sixth-row">
+                        <img src="layout/body/second-section/sixth-row/cash_(2).png" alt="cash-img">
+                        <div class="sixth-row-second-column">
+                            <div class="sixth-row-second-column-text-wrapper">
+                                <b>Znalazłeś ten produkt taniej?</b>
+                                <span>WYNEGOCJUJ DOBRĄ CENĘ</span>
+                            </div>
+                        </div>
+                        <span>dodaj do porównania</span>
+                    </div>
+                    <div class="eigth-row">
+                        <div class="eigth-row-1">
+                            <div class="eigth-row-first-row-first-column">
+                                <img src="layout/body/second-section/eight-row/Shape_1.png" alt="car-img">
+                                <div class="eigth-row-first-row-first-column-text-wrapper">
+                                    <b>Darmowa dostawa </b>
+                                    <span>dla zamówień powyżej 600 zł</span>
+                                </div>
+                            </div>
+                            <div class="eigth-row-first-row-second-column">
+                                <div class="eigth-row-first-row-second-column-container">
+                                    <img src="layout/body/second-section/eight-row/return_(8).png" alt="return-img">
+                                    <div class="eigth-row-first-row-second-column-text-wrapper">
+                                        <b>ZWROT TOWARU</b>
+                                        <span>do 14 dni od daty zakupu</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eigth-row-first-row">
+                            <div class="eigth-row-second-row-first-column">
+                                <img src="layout/body/second-section/eight-row/percent.png" alt="percent-img">
+                                <div class="eigth-row-second-row-first-column-text-wrapper">
+                                    <b>zakupy na raty</b>
+                                    <span>oblicz ratę >></span>
+                                </div>
+                            </div>
+                            <div class="eigth-row-second-row-second-column">
+                                <div class="eigth-row-second-row-second-column-container">
+                                    <img src="layout/body/second-section/eight-row/medal_(4).png" alt="return-img">
+                                    <b>GWARANCJA 12 miesiący</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-section">
+                <div class="second-section-row-1">
+                    <img src="layout/body/Warstwa_694_kopia_2.png" alt="warstwa-img">
+                    <h1> DOBIERZ DO KOMPLETU</h1>
+                </div>
+                <div class="second-section-product-wrapper">
+                    <div class="second-section-row-2 second-section-first-product">
+                        <div class="maska-info">
+                            <img src="layout/body/dobierz-kompletu/Warstwa_672_kopia_2.png" alt="mask-img">
+                            <div class="second-section-row-2-text-wrapper">
+                                <span>MASKA EMPIRE E-FLEX
+                                    GOGGLE (BLACK)</span>
+                                <b>139,00 zł</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-section-row-2 second-section-second-product">
+                        <div class="maska-info">
+                            <img src="layout/body/dobierz-kompletu/Warstwa_672_kopia_2.png" alt="mask-img">
+                            <div class="second-section-row-2-text-wrapper">
+                                <span>MASKA EMPIRE E-FLEX
+                                    GOGGLE (BLACK)</span>
+                                <b>139,00 zł</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-section-row-2">
+                        <div class="maska-info">
+                            <img src="layout/body/dobierz-kompletu/Warstwa_672_kopia_2.png" alt="mask-img">
+                            <div class="second-section-row-2-text-wrapper third-section-second-product">
+                                <span>MASKA EMPIRE E-FLEX
+                                    GOGGLE (BLACK)</span>
+                                <b>139,00 zł</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-section">
+                <div class="third-section-col-1">
+                    <div class="third-section-col-1-row-1">
+                        <div class="second-section-row-1">
+                            <img src="layout/body/Warstwa_694_kopia_2.png" alt="warstwa-img">
+                            <h1> Marker Firmy Tippmann</h1>
+                        </div>
+                        <div class="third-section-col-1-row-1-main-text-1">
+                            <p>stworzony z myślą o młodszych graczach, poprzez zmiejszenie kalubru do 50Cal.<br>
+                                FT-50 Lite wygladem przypomina marker FT-12 , jednak rózni się on trochę od swojego
+                                pierwowzoru.<br>
+                                Marker jest trochę krótszy, korpus ma bardziej agresywny charakter, średnica zewnętrzna
+                                oraz
+                                wewnętrzna lufy jest mniejsza oraz średnica otworu podającego kulki w magazynku
+                                grawitacyjnym jest dostosowana do kalubru 50Cal.</p>
+
+
+                            <p>kompaktowy militarny wygląd<br>
+                                szybkie serwisowanie bez użycia narzędzi<br>
+                                aluminiowy chwyt i body<br>
+                                wewnętrzny system gazowy "inline bolt system"<br>
+                                modułowa konstrukcja<br>
+                                stałe przyrządy celownicze<br>
+                                Zestaw zawiera magazynek grawitacyjny oraz barrel bag (osłona lufy)</p>
+
+                        </div>
+                    </div>
+                    <div class="third-section-col-1-row-2">
+                        <h3>Nasi klienci pytali o:</h3>
+                        <p>Czy ten pistolet jest idealny do gry w paintballa?</p>
+                        <span>Zwane popularnie "długimi wiatrówkami" świetnie nadają się do precyzyjnego strzelania na
+                            dłuższe dystanse (powyżej 15-20 metrów). Mają większą moc niż wiatrówki pistolety, dłuższą
+                            lufę i z tego też względu są zdecydowanie bardziej celne. Wystrzeliwany z nich śrut ma
+                            również większe możliwości przebijania celu</span>
+                    </div>
+                    <div class="third-section-col-1-row-2-question-list">
+                        <div class="third-section-col-1-row-2-question">
+                            <p>
+                                Czy ten model posiada mechanizm spustowy ?
+                            </p>
+                            <div class="dropdown">
+                                <button onclick="myFunction('question-1-dropdown')" class="dropbtn"><i
+                                        class="fa fa-angle-down"></i></button>
+                                <div id="question-1-dropdown" class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-section-col-1-row-2-question">
+                            <p>
+                                Jakie dobrać naboje do tego sprzętu ?
+                            </p>
+                            <div class="dropdown">
+                                <button onclick="myFunction('question-2-dropdown')" class="dropbtn"><i
+                                        class="fa fa-angle-down"></i></button>
+                                <div id="question-2-dropdown" class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-section-col-1-row-2-question">
+                            <p>
+                                Nie moge znależć instrukcji, czy mi ją doślecie ?
+                            </p>
+                            <div class="dropdown">
+                                <button onclick="myFunction('question-3-dropdown')" class="dropbtn"><i
+                                        class="fa fa-angle-down"></i></button>
+                                <div id="question-3-dropdown" class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="third-section-col-1-row-2-answer">
+                            <h3>Nie znalazłeś odpowiedzi?</h3>
+                            <div>
+                                <p>Zadaj swoje pytanie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-section-col-2">
+                    <div class="third-section-col-2-first-part">
+                        <div class="third-section-col-2-first-part-text-wrapper">
+                            <span class="bold-upper-text">Usługi serwisowe</span><br>
+                            <span>Na sprzęt zakupiony w sklepie</span><br>
+                            <span class="bold-upper-text">STAŁY RABAT -25%</span><br>
+                            <div class="btn-sprawdz">
+                                <span>sprawdź</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-section-col-2-second-part">
+                        <div class="third-section-col-2-second-part-text-section-wrapper">
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Numer seryjny
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    111000
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Model:
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    TIPPMANN FT-50 LITE 50
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Wykończenie:
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    Czarny mat
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Kaliber
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    66 LR HV
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Pojemność magazynka:
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    10 nabojów
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Mechanizm spustowy:
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    SA (single Action)
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Siła nacisku spustu:
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    1.8 kg / 4 lb
+                                </span>
+                            </div>
+                            <div class="third-section-col-2-second-part-text-section">
+                                <span>
+                                    Wymiary
+                                </span><br>
+                                <span class="bold-upper-text">
+                                    1200x123mm
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-section">
+                <div class="third-section-col-1">
+                    <div class="third-section-col-1-row-1">
+                        <div class="second-section-row-1">
+                            <img src="layout/body/Warstwa_694_kopia_2.png" alt="warstwa-img">
+                            <h1> Porady Naszego eksperta</h1>
+                        </div>
+                    </div>
+                    <div class="fourth-section-col-1-row-2">
+                        <div class="fourth-section-col-1-row-2-porady-1">
+                            <h3>Jak stworzyć samemu farby do gery?</h3>
+                            <div class="porady-content">
+                                <img src="layout/body/fourth-section/Warstwa_679.png" alt="human-img">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend,
+                                    tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget
+                                    nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien
+                                    in lacus condimentum posuere.</span>
+                            </div>
+                        </div>
+                        <div class="fourth-section-col-1-row-2-porady-1 porady-section-2">
+                            <h3>Jak dobrać naboje z farbą do mojego sprzętu?</h3>
+                            <div class="porady-content">
+                                <img src="layout/body/fourth-section/Warstwa_680.png" alt="human-img">
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut justo eleifend,
+                                    tempus lorem et, facilisis nisi. Praesent et eros non nisl iaculis ultricies eget
+                                    nec odio. Fusce nec efficitur elit, non ullamcorper libero. Quisque consequat sapien
+                                    in lacus condimentum posuere.</span>
+                            </div>
+                        </div>
+                        <div class="fourth-section-col-1-row-2-porady-2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content-wrapper">
+                <div class="footer-menu-container">
+                    <div class="footer-menu">
+                        <div class="footer-menu-text-wrapper">
+                            <h3>INFORMACJE</h3>
+                            <p>Informacje o sklepie</p>
+                            <p>Wysyłka</p>
+                            <p>Regulamin</p>
+                            <p>Polityka prywatności</p>
+                            <p>Odstąpienie od umowy</p>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-menu footer-second-menu">
+                        <div class="footer-menu-text-wrapper">
+                            <h3>MOJE KONTO</h3>
+                            <p>Zarejestruj się</p>
+                            <p>Moje zamówienia</p>
+                            <p>Koszyk</p>
+                            <p>Ulubione</p>
+                            <p>Historia transakcji</p>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-menu footer-third-menu">
+                        <div class="footer-menu-text-wrapper">
+                            <h3>KOTAKT</h3>
+                            <h2>+48 574 046 421</h2>
+                            <span>kontakt@assasinarmy.pl</span>
+                            <div class="social-networks">
+                                <img src="layout/footer/kontakt/facebook_(1).png" alt="facebook-img" class="facebook">
+                                <img src="layout/footer/kontakt/instagram-photo-camera-logo-outline.png"
+                                    alt="instagram-img" class="instagram">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="footer-menu-text-wrapper footer-fourth-menu">
+                            <h3>MOJE ZAMÓWENIA</h3>
+                            <div class="footer-menu-wrapper-row">
+                                <img src="layout/footer/fourth-menu/Shape_1_kopia.png" alt="car-img">
+                                <span>Sprawdź status zamówienia</span>
+                            </div>
+                            <div class="footer-menu-wrapper-row"><img
+                                    src="layout/footer/fourth-menu/Forma_1_kopia_3.png" alt="magnifier-img">
+                                <span>Śledź przesyłkę</span>
+                            </div>
+                            <div class="footer-menu-wrapper-row"><img
+                                    src="layout/footer/fourth-menu/Forma_1_kopia_2.png" alt="dislike-img">
+                                <span>Reklamacje</span>
+                            </div>
+                            <div class="footer-menu-wrapper-row"><img
+                                    src="layout/footer/fourth-menu/Forma_1_kopia_4.png" alt="arrow-img">
+                                <span>Zwroty</span>
+                            </div>
+                            <div class="footer-menu-wrapper-row"><img src="layout/footer/fourth-menu/Forma_1_kopia.png"
+                                    alt="exclamation-point-img">
+                                <span>Informacje o wymianie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="layout/footer/opartyo_IdoSellShop_white.png" alt="footer-logo">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
